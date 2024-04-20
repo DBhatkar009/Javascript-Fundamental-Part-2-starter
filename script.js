@@ -207,7 +207,7 @@ console.log(ages.length);
 // Basics Array Operations(Methods)----------------------------------------------------------------------------
 
 
-/*
+
 // Add values in Array
 
 const friends = ["nill", "niteen", "mukesh", "Abhishek"];
@@ -240,7 +240,7 @@ console.log(friends.includes("Abhishek"));
 
 console.log(friends.includes(25));
 
-*/
+
 
 
 
