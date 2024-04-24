@@ -41,7 +41,7 @@ const num = Number('2');
 */
 
 
-//Functions Declarations and Functions Expressions-------------------------------------------------------------------------------------- 
+//Functions Declarations and Functions Expressions--------------------------------------------------------------------------------------
 /*
 // this method call function declarations
 function agecalculator(birthyear){
@@ -112,7 +112,7 @@ console.log(fruitJuicer(2, 3));
 /*
 const personAge = birthyear => {
   return 2024 - birthyear;
-} 
+}
 
 const jobRetirement = (birthyear, Name) => {
   let age = personAge(birthyear);
@@ -150,11 +150,11 @@ function checkWinner(avgDolphins, avgKoalas){
   }
   else if(avgKoalas >= 2 * avgDolphins){
       console.log(`Koala Win the Match🏆 ${avgKoalas}`);
-  } 
+  }
   else{
       console.log(`No one Win the Match the Match is Drew`);
   }
-  
+
 }
 
 scoreDolphins = calcAverage(85,54,41);
@@ -184,7 +184,7 @@ console.log(years);
 
 const fname = "Dhananjay";
 const personDetails = [fname, "Bhatkar", 2024 - years[1], friends];
-console.log(personDetails); 
+console.log(personDetails);
 
 
 function calcAge(birthyear){
@@ -206,7 +206,7 @@ console.log(ages.length);
 
 // Basics Array Operations(Methods)----------------------------------------------------------------------------
 
-
+/*
 
 // Add values in Array
 
@@ -240,8 +240,20 @@ console.log(friends.includes("Abhishek"));
 
 console.log(friends.includes(25));
 
+*/
 
 
 
+// Coding Challenges Part Two Array----------------------------------------------------------------------------
 
+
+const calcTip = (bill) => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+const bill = [125, 555, 44];
+
+const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
+
+const total = [bill[0] + tips[0], bill[1] + tips[1], bill[2] + tips[2]];
+
+console.log(bill, tips, total);
 
