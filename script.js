@@ -260,3 +260,18 @@ console.log("Bills:- " + bill, " Tips:- " + tips, " Totals:- " +  total);
 */
 
 
+
+// Object ----------------------------------------------------------------------------------------------------
+
+/*
+let year = 1996;
+
+const whoAmI = {
+  name: "Dhananjay",
+  lastname: "Bhatkar",
+  age: 2024 - year,
+  fevouratePlace: ["dadar", "santacruz", "ratnagiri", "bhatye", "prabhadevi"]
+}
+
+console.log(whoAmI);
+*/
