@@ -329,6 +329,46 @@ console.log(`${dhananjay.firstName} has a ${dhananjay['Job']} job and they refre
 */
 
 
+// Object Methods --------------------------------------------------------------------------------------------
 
 
 
+const dhananjay = {
+  firstName: "Dhananjay",
+  lastName: "Bhatkar",
+  birthyear: 1996,
+  phoneNo: 9867897784,
+  friends: ["Rishab", "Rahul", "Somian", "Ashwini", "Iram", "Kulsum"],
+  Job: "Full Stack Developer",
+  hasDriversLicense: true,
+
+  // calcAge: function(birthyear){
+  //   return 2024 - this.birthyear;
+  // }
+
+  calcAge: function(){
+    this.age = 2024 - this.birthyear;
+    return this.age;
+  },
+
+  calcBirthyeah: function(){
+    console.log(this);
+    return 2025 - this.birthyear;
+    
+  }
+
+
+}
+
+
+
+console.log(dhananjay.calcAge());
+
+console.log(dhananjay.calcBirthyeah());
+
+
+console.log(dhananjay.age);
+console.log(dhananjay.age);
+console.log(dhananjay.age);
+
+console.log(dhananjay);
