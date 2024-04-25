@@ -275,3 +275,60 @@ const whoAmI = {
 
 console.log(whoAmI);
 */
+
+
+// Dote vs Bracket Notation -----------------------------------------------------------------------------------
+
+/*
+let dhananjay = {
+  firstName: "Dhananjay",
+  lastName: "Bhatkar",
+  phoneNo: 9867897784,
+  friends: ["Rishab", "Rahul", "Somian", "Ashwini", "Iram", "Kulsum"],
+  Job: "Full Stack Developer"
+}
+
+console.log(dhananjay);
+
+// Dote notation
+console.log(dhananjay.phoneNo);
+
+// Bracket notation
+console.log(dhananjay['firstName']);
+console.log(dhananjay['friends']);
+
+
+const nameKey = "Name"
+console.log(dhananjay['first' + nameKey]);
+console.log(dhananjay['last' + nameKey]);
+
+const noKey = "No"
+console.log(dhananjay['phone' + noKey]);
+
+
+dhananjay.fevPlace = "Ratnagiri Bhatye";
+dhananjay['birthday'] = "3rd june 1996";
+
+console.log(dhananjay);
+
+const ask = prompt("what do you want to know about Dhananjay, choose between this name, lastname, phoneNo, friends, job");
+
+if(dhananjay[ask]){
+  console.log(dhananjay[ask]);
+}
+else {
+  console.log("you ask out of personal questions");
+}
+
+
+// challenges
+// Dhananjay has a job and they refrence by 2 friends and these are rishab and rahul
+
+console.log(`${dhananjay.firstName} has a ${dhananjay['Job']} job and they refrence by ${dhananjay['friends'].length-4} friends and these are ${dhananjay.friends[0]} and ${dhananjay.friends[1]}`);
+
+*/
+
+
+
+
+
