@@ -331,7 +331,7 @@ console.log(`${dhananjay.firstName} has a ${dhananjay['Job']} job and they refre
 
 // Object Methods --------------------------------------------------------------------------------------------
 
-
+/*
 
 const dhananjay = {
   firstName: "Dhananjay",
@@ -355,20 +355,23 @@ const dhananjay = {
     console.log(this);
     return 2025 - this.birthyear;
     
+  },
+
+  sumMary: function(){
+    return `${dhananjay['firstName']} is a ${dhananjay.calcAge()} year old ${dhananjay['Job']} he has ${dhananjay.hasDriversLicense ? "a" : "no he has"} drivers license`;
   }
 
-
 }
-
-
 
 console.log(dhananjay.calcAge());
 
 console.log(dhananjay.calcBirthyeah());
-
 
 console.log(dhananjay.age);
 console.log(dhananjay.age);
 console.log(dhananjay.age);
 
 console.log(dhananjay);
+console.log(dhananjay.sumMary());
+
+*/
