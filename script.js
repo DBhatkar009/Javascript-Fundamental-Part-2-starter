@@ -343,8 +343,8 @@ const dhananjay = {
   hasDriversLicense: true,
 
   // calcAge: function(birthyear){
-  //   return 2024 - this.birthyear;
-  // }
+  //   return 2024 - birthyear;
+  // },
 
   calcAge: function(){
     this.age = 2024 - this.birthyear;
@@ -358,14 +358,14 @@ const dhananjay = {
   },
 
   sumMary: function(){
-    return `${dhananjay['firstName']} is a ${dhananjay.calcAge()} year old ${dhananjay['Job']} he has ${dhananjay.hasDriversLicense ? "a" : "no he has"} drivers license`;
+    return `${dhananjay['firstName']} is a ${dhananjay['calcAge']()} year old ${dhananjay['Job']} he has ${dhananjay.hasDriversLicense ? "a" : "no he has"} drivers license`;
   }
 
 }
 
-console.log(dhananjay.calcAge());
+console.log(dhananjay['calcAge']());
 
-console.log(dhananjay.calcBirthyeah());
+// console.log(dhananjay.calcBirthyeah());
 
 console.log(dhananjay.age);
 console.log(dhananjay.age);
@@ -375,7 +375,6 @@ console.log(dhananjay);
 console.log(dhananjay.sumMary());
 
 */
-
 
 // Coding Challenges Part Three Object-------------------------------------------------------------------------
 
