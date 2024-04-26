@@ -421,3 +421,26 @@ console.log(result);
 
 console.log(johnDetails.johnBMI);
 */
+
+
+
+// Iteration: For Loop ---------------------------------------------------------------------------------------
+
+/*
+console.log(`Dhananjay Bhatkars push ups rep:- 10`);
+console.log(`Dhananjay Bhatkars push ups rep:- 9`);
+console.log(`Dhananjay Bhatkars push ups rep:- 8`);
+console.log(`Dhananjay Bhatkars push ups rep:- 7`);
+console.log(`Dhananjay Bhatkars push ups rep:- 6`);
+console.log(`Dhananjay Bhatkars push ups rep:- 5`);
+console.log(`Dhananjay Bhatkars push ups rep:- 4`);
+console.log(`Dhananjay Bhatkars push ups rep:- 3`);
+console.log(`Dhananjay Bhatkars push ups rep:- 2`);
+console.log(`Dhananjay Bhatkars push ups rep:- 1`);
+
+
+for(let rep = 10; rep >= 1;  rep--){
+  console.log(`Dhananjay Bhatkars push ups rep:- ${rep}`);
+}
+
+*/
