@@ -499,3 +499,28 @@ for(let x = 0; x < Me.length; x++){
 }
 
 */
+
+
+// Looping Backwards and Loops in Loops ----------------------------------------------------------------------
+
+/*
+const user = [
+  "Dhananjay",
+  "Bhatkar",
+  2024-1996,
+  ["Mamta", "Sahil", "Pooja"],
+  45872
+];
+
+for(let i = user.length - 1; i >= 0; i--){
+  console.log(user[i]);
+}
+
+for(let workout = 1; workout <= 6; workout++){
+  console.log("the exercise starts" + workout);
+
+  for(let rep = 1; rep <= 8; rep++){
+    console.log("the exercise start" + workout + "the reps is" + rep);
+  }
+}
+*/
