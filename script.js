@@ -391,7 +391,7 @@ TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 GOOD LUCK 😀
 */
 
-/*
+
 const markDetails = {
   firstName: "Mark",
   lastName: "Miller",
@@ -416,14 +416,8 @@ const johnDetails = {
 
 console.log(markDetails.calcBMIMark(), johnDetails.calcBMIJohn());
 
-if(markDetails.markBMI >= johnDetails.johnBMI){
-    console.log(`${markDetails['firstName']} ${markDetails['lastName']}'s BMI ${markDetails['markBMI']} is higher than ${johnDetails['firstName']} ${johnDetails['lastName']}'s ${johnDetails['johnBMI']}!`);
-}
-else{
- console.log(`${johnDetails.firstName} ${johnDetails.lastName}'s BMI ${johnDetails.johnBMI} is higher than ${markDetails.firstName} ${markDetails.lastName}'s ${markDetails.markBMI}!`);
-}
+const result = markDetails.markBMI >= johnDetails.johnBMI ? `${markDetails['firstName']} ${markDetails['lastName']}'s BMI ${markDetails['markBMI']} is higher than ${johnDetails['firstName']} ${johnDetails['lastName']}'s ${johnDetails['johnBMI']}!` : `${johnDetails.firstName} ${johnDetails.lastName}'s BMI ${johnDetails.johnBMI} is higher than ${markDetails.firstName} ${markDetails.lastName}'s ${markDetails.markBMI}!`;
 
+console.log(result);
 
 console.log(johnDetails.johnBMI);
-
-*/
