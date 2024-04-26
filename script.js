@@ -444,3 +444,58 @@ for(let rep = 10; rep >= 1;  rep--){
 }
 
 */
+
+
+// Looping Array, Breaking and Continuing --------------------------------------------------------------------
+
+/*
+// Looping Array
+const Me = [
+  "Dhananjay",
+  "Bhatkar",
+  2024-1996,
+  ["Mamta", "Sahil", "Pooja"],
+  45872
+];
+
+const replicant = [];
+
+for(let d = 0; d < Me.length; d++){
+  console.log(Me[d],  typeof Me[d]);
+
+  // replicant[d] = Me[d];
+  replicant.push(Me[d]);
+}
+
+console.log(replicant);
+
+
+const year = [1994, 1992, 1982, 1990];
+
+const age = [];
+
+for(let i = 0; i < year.length; i++){
+    age.push(2024 - year[i]);
+}
+console.log(age);
+
+
+// Breaking And Continuing
+
+console.log("----String-----");
+
+for(let x = 0; x < Me.length; x++){
+  if(typeof Me[x] === 'string'){
+    console.log(Me[x]);
+  }
+}
+
+console.log("-----Number-----");
+
+for(let x = 0; x < Me.length; x++){
+  if(typeof Me[x] === 'number'){
+    console.log(Me[x]);
+  }
+}
+
+*/
