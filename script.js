@@ -561,6 +561,27 @@ for(let workout = 1; workout <= 6; workout++){
 */
 
 
+// While Loop-------------------------------------------------------------------------------------------------
+
+/*
+let rep = 1;
+while(rep <= 6){
+ console.log(`workout starts with ${rep} reps`);
+ rep++;
+}
+
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while(dice !== 6){
+ console.log(`You rolled a ${dice}`);
+ dice = Math.trunc(Math.random() * 6) + 1;
+ if(dice === 6) console.log('loop is about to end');
+
+}
+
+*/
+
 // Codding Challenge Part Four For Loop ----------------------------------------------------------------------
 
 /*
